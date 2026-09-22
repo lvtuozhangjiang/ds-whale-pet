@@ -1,0 +1,31 @@
+# ---- 构建产物 ----
+build/
+dist/
+__pycache__/
+*.pyc
+
+# ---- 运行时生成的东西 ----
+# 程序把配置和日志写在 %APPDATA%\DS鲸鱼娘桌宠\，不在仓库里。
+# 这几条只是防手滑：万一手动往这儿拷过一份，别提交上去。
+config.json
+pet.log
+pet_crash.log
+
+# ---- 作者原版模型 ----
+# 只有要重跑 gen_model3.py / gen_hotkeys.py 才需要，见 gen_model3.py 顶部说明。
+model-src/
+
+# ---- 调试和验证留下的东西 ----
+_parts.txt
+_sweep.out
+_build.log
+_combo.txt
+_residue.txt
+_shot.txt
+_prop_*.png
+_recolor.png
+EXE-*.png
+动作收回-*.png
+嘴角修复-*.png
+圈这里-*.png
+自拍组合-*.png

@@ -1,0 +1,251 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "c_0120.moc3",
+    "Textures": [
+      "c_0120.2048/texture_00.png",
+      "c_0120.2048/texture_01.png"
+    ],
+    "Physics": "c_0120.physics3.json",
+    "DisplayInfo": "c_0120.cdi3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motion/motion_idle.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
+      ],
+      "Action": [
+        {
+          "File": "motion/motion_00.motion3.json",
+          "FadeInTime": 0.3,
+          "FadeOutTime": 0.3
+        },
+        {
+          "File": "motion/motion_01.motion3.json",
+          "FadeInTime": 0.3,
+          "FadeOutTime": 0.3
+        },
+        {
+          "File": "motion/motion_02.motion3.json",
+          "FadeInTime": 0.3,
+          "FadeOutTime": 0.3
+        },
+        {
+          "File": "motion/motion_03.motion3.json",
+          "FadeInTime": 0.3,
+          "FadeOutTime": 0.3
+        },
+        {
+          "File": "motion/motion_04.motion3.json",
+          "FadeInTime": 0.3,
+          "FadeOutTime": 0.3
+        },
+        {
+          "File": "motion/motion_05.motion3.json",
+          "FadeInTime": 0.3,
+          "FadeOutTime": 0.3
+        },
+        {
+          "File": "motion/motion_06.motion3.json",
+          "FadeInTime": 0.3,
+          "FadeOutTime": 0.3
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "love",
+        "File": "exp/exp_00.exp3.json"
+      },
+      {
+        "Name": "exp_01",
+        "File": "exp/exp_01.exp3.json"
+      },
+      {
+        "Name": "exp_02",
+        "File": "exp/exp_02.exp3.json"
+      },
+      {
+        "Name": "exp_03",
+        "File": "exp/exp_03.exp3.json"
+      },
+      {
+        "Name": "exp_04",
+        "File": "exp/exp_04.exp3.json"
+      },
+      {
+        "Name": "exp_05",
+        "File": "exp/exp_05.exp3.json"
+      },
+      {
+        "Name": "exp_06",
+        "File": "exp/exp_06.exp3.json"
+      },
+      {
+        "Name": "exp_07",
+        "File": "exp/exp_07.exp3.json"
+      },
+      {
+        "Name": "exp_08",
+        "File": "exp/exp_08.exp3.json"
+      },
+      {
+        "Name": "exp_09",
+        "File": "exp/exp_09.exp3.json"
+      },
+      {
+        "Name": "exp_10",
+        "File": "exp/exp_10.exp3.json"
+      },
+      {
+        "Name": "exp_11",
+        "File": "exp/exp_11.exp3.json"
+      },
+      {
+        "Name": "exp_12",
+        "File": "exp/exp_12.exp3.json"
+      },
+      {
+        "Name": "exp_13",
+        "File": "exp/exp_13.exp3.json"
+      },
+      {
+        "Name": "exp_14",
+        "File": "exp/exp_14.exp3.json"
+      },
+      {
+        "Name": "exp_15",
+        "File": "exp/exp_15.exp3.json"
+      },
+      {
+        "Name": "exp_16",
+        "File": "exp/exp_16.exp3.json"
+      },
+      {
+        "Name": "exp_17",
+        "File": "exp/exp_17.exp3.json"
+      },
+      {
+        "Name": "exp_18",
+        "File": "exp/exp_18.exp3.json"
+      },
+      {
+        "Name": "exp_19",
+        "File": "exp/exp_19.exp3.json"
+      },
+      {
+        "Name": "exp_20",
+        "File": "exp/exp_20.exp3.json"
+      },
+      {
+        "Name": "exp_21",
+        "File": "exp/exp_21.exp3.json"
+      },
+      {
+        "Name": "exp_22",
+        "File": "exp/exp_22.exp3.json"
+      },
+      {
+        "Name": "exp_23",
+        "File": "exp/exp_23.exp3.json"
+      },
+      {
+        "Name": "exp_24",
+        "File": "exp/exp_24.exp3.json"
+      },
+      {
+        "Name": "exp_25",
+        "File": "exp/exp_25.exp3.json"
+      },
+      {
+        "Name": "exp_26",
+        "File": "exp/exp_26.exp3.json"
+      },
+      {
+        "Name": "exp_27",
+        "File": "exp/exp_27.exp3.json"
+      },
+      {
+        "Name": "exp_28",
+        "File": "exp/exp_28.exp3.json"
+      },
+      {
+        "Name": "exp_29",
+        "File": "exp/exp_29.exp3.json"
+      },
+      {
+        "Name": "exp_30",
+        "File": "exp/exp_30.exp3.json"
+      },
+      {
+        "Name": "exp_31",
+        "File": "exp/exp_31.exp3.json"
+      },
+      {
+        "Name": "exp_32",
+        "File": "exp/exp_32.exp3.json"
+      },
+      {
+        "Name": "exp_33",
+        "File": "exp/exp_33.exp3.json"
+      },
+      {
+        "Name": "exp_34",
+        "File": "exp/exp_34.exp3.json"
+      },
+      {
+        "Name": "exp_35",
+        "File": "exp/exp_35.exp3.json"
+      },
+      {
+        "Name": "exp_36",
+        "File": "exp/exp_36.exp3.json"
+      },
+      {
+        "Name": "exp_37",
+        "File": "exp/exp_37.exp3.json"
+      },
+      {
+        "Name": "exp_38",
+        "File": "exp/exp_38.exp3.json"
+      },
+      {
+        "Name": "exp_39",
+        "File": "exp/exp_39.exp3.json"
+      },
+      {
+        "Name": "exp_40",
+        "File": "exp/exp_40.exp3.json"
+      },
+      {
+        "Name": "exp_41",
+        "File": "exp/exp_41.exp3.json"
+      },
+      {
+        "Name": "exp_42",
+        "File": "exp/exp_42.exp3.json"
+      },
+      {
+        "Name": "exp_43",
+        "File": "exp/exp_43.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}

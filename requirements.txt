@@ -1,0 +1,18 @@
+# DS鲸鱼娘桌宠 运行依赖
+#
+# 环境：Python 3.12.7（Anaconda），Windows 11
+# 安装：pip install -r requirements.txt
+
+PyQt5==5.15.10          # 窗口 + QOpenGLWidget 渲染宿主
+live2d-py==0.7.0.4      # Cubism Native 的 Python 绑定（自带 Cubism Core 与着色器）
+                        # 注意：本工程只用 live2d.v3；moc3 文件头为 MOC3 v4
+pywin32==311            # 开机自启写注册表用（winreg 是标准库，pywin32 提供其余 Win32 便利）
+
+# 打包时才需要
+pyinstaller==6.21.0
+pillow==10.4.0          # 把 icon.png 转成 .ico 供 EXE 图标使用
+
+# 只跑 fix_*.py / _test_*.py / make_screenshot.py 这些脚本才需要。
+# 程序和打出来的 exe 都不依赖它们（build_onefile.spec 里显式排除）。
+numpy
+scipy                   # fix_mouth_bleed.py 用 distance_transform_edt 找最近的不透明像素
